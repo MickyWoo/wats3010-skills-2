@@ -1,0 +1,50 @@
+/* reset */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* set the height of the document to the full height of the screen*/
+html,
+body {
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* factional unit, thats new */
+    grid-gap: 5px;
+    height: 100%;
+}
+
+/* i dont reacall the >*  is this a psuedo class */
+.container>* {
+    background: #eeeeee;
+}
+
+.container>header,
+nav,
+aside,
+section,
+footer {
+    padding: 20px;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .container {
+        grid-template-columns: repeat(6, 1fr); /* 6 columes and each one is 1 fr*/
+    }
+
+    .container header,
+    .container nav,
+    .container footer {
+        grid-column: span 6; /* head nav and footer take up full space.... */ 
+    }
+
+    .container section {
+        grid-column: span 4; /* takes up a portion of a whole column how its divided im not sure */
+    }
+}
