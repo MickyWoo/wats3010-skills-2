@@ -1,0 +1,11 @@
+p:nth-child(even) {
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  p:nth-child(odd) {
+    font-family: 'Modak', cursive;
+  }
+
+  h1{
+    font-family: 'Roboto Slab', serif;
+  }
