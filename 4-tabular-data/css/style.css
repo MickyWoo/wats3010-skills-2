@@ -12,7 +12,7 @@ setting a width on the container and setting the overflow in the X direction to 
       table-layout: fixed; /* judge cell width based on header content.*/ 
       background-color: darkgray;
       border: 3px, solid lightgray;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'sans-serif';
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
   caption {
@@ -67,4 +67,4 @@ tbody td {
   tbody tr:nth-child(even) {
     background-color: white;
   }
-  ``` 
+ 
