@@ -36,3 +36,9 @@ h1 {
 footer {
     margin: 30px 0;
 }
+/* we dont use, because it would smush the entire content with the set width we have.
+ * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} */

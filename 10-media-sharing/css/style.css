@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+body {
+    background-image: url("../media/hubble-heic1509a.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* this is new, good to know */
+
+}
+
+
+/* flex sets it vertically, anything else is left placement. */
+section {
+    display: flex;
+    flex-direction: column;
+    /* didnt know you could set flex direction */
+    align-items: center;
+}
+
+video,
+iframe {
+    border: 5px solid gold;
+
+}
+
+
+/* could i not set opacity of background to a ligher shade? i see because it takes two stepts
+   to select background and change opacity */
+.embedded-audio p {
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, .5);
+    color: black;
+    border-radius: 30px;
+    margin: 10px 0;
+}
+
+article {
+    margin: 1rem 0;
+}
+
+footer a,
+footer p {
+    color: white;
+}
